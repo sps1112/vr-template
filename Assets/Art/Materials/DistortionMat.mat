@@ -95,7 +95,7 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DistortSpeed: 1
-    - _DistortStrength: 0.0015
+    - _DistortStrength: 0.003
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
@@ -103,8 +103,10 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NoiseScale: 3
-    - _NoiseSpeed: 0.2
+    - _NoiseMultiplier: 0.7
+    - _NoisePower: 1
+    - _NoiseScale: 5
+    - _NoiseSpeed: 0.1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0

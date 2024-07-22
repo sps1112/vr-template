@@ -104,8 +104,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HighlightStrength: 6
-    - _HighlightThreshold: 0.1
+    - _HighlightStrength: 4
+    - _HighlightThreshold: 0.7
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -139,7 +139,7 @@ Material:
     - _HighlightColor: {r: 1, g: 1, b: 1, a: 0}
     - _RippleColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SurfaceColor: {r: 0.5990566, g: 0.8747052, b: 1, a: 0.15686275}
+    - _SurfaceColor: {r: 0.25943395, g: 0.81496835, b: 1, a: 0.15686275}
     - _WaterColor: {r: 0.43867922, g: 0.8305033, b: 1, a: 0.39215687}
   m_BuildTextureStacks: []
 --- !u!114 &3369763539063837000
