@@ -7,22 +7,22 @@ public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI fpsCounter;
 
-    public int frameSkip = 10;
+    public float timeSkip = 1;
 
-    private int frameCount;
+    private float timer;
 
     void Start()
     {
-        frameCount = 0;
+        timer = 0;
         fpsCounter.text = ((int)(1 / Time.deltaTime)).ToString();
     }
 
     void Update()
     {
-        frameCount++;
-        if (frameCount >= frameSkip)
+        timer += Time.deltaTime;
+        if (timer >= timeSkip)
         {
-            frameCount -= frameSkip;
+            timer -= timeSkip;
             fpsCounter.text = ((int)(1 / Time.deltaTime)).ToString();
         }
     }

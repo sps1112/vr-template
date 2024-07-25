@@ -93,10 +93,10 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DistortionScale: 100
+    - _DistortionScale: 200
     - _DistortionSpeedX: 0.005
     - _DistortionSpeedY: 0.015
-    - _DistortionStrength: 0.15
+    - _DistortionStrength: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
@@ -104,8 +104,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HighlightStrength: 8
-    - _HighlightThreshold: 0.8
+    - _HighlightStrength: 6
+    - _HighlightThreshold: 0.6
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -129,7 +129,7 @@ Material:
     - _WaveScale: 12
     - _WaveSpeedX: 0
     - _WaveSpeedY: 0.065
-    - _WaveStrength: 1.5
+    - _WaveStrength: 8
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
