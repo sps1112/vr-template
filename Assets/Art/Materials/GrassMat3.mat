@@ -136,7 +136,10 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _SwaySpeed: 0
+    - _SwayPivot: 0.5
+    - _SwayScale: 6
+    - _SwaySpeed: 0.1
+    - _SwayStrength: 2
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
