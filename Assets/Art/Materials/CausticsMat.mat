@@ -107,13 +107,15 @@ Material:
     - _CausticScale: 35
     - _CausticSpeed: 5
     - _CausticStrength: 6
-    - _CausticsAlpha: 0.5
+    - _CausticsAlpha: 0.85
+    - _CausticsScale: 4
     - _CausticsSpeed: 2.5
     - _CausticsStrength: 8
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _DecalAngleFadeSupported: 1
     - _DecalMeshBiasType: 0
     - _DecalMeshDepthBias: 0
     - _DecalMeshViewBias: 0
@@ -137,14 +139,14 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _UseTexture: 1
+    - _UseTexture: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CausticMoveSpeed: {r: 0, g: 0.02, b: 0, a: 0}
     - _CausticsColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CausticsMoveSpeed: {r: 0.015, g: 0.03, b: 0, a: 0}
+    - _CausticsMoveSpeed: {r: 0.01, g: 0.05, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

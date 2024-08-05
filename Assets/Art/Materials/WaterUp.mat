@@ -68,6 +68,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SurfaceDisTexture:
+        m_Texture: {fileID: 2800000, guid: 60046e8243599da41adf84eaf9a7f364, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceTexture:
+        m_Texture: {fileID: 2800000, guid: 1614f08c053bb4044813a3832b2f475c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -107,6 +115,7 @@ Material:
     - _HighlightStrength: 6
     - _HighlightThreshold: 0.6
     - _Metallic: 0
+    - _NormalStrength: 0.75
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -120,6 +129,7 @@ Material:
     - _RippleThreshold: 0.85
     - _RippleThreshold_1: 0
     - _RippleVibration: 5
+    - _ShadowHeight: 10
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -128,8 +138,8 @@ Material:
     - _Surface: 0
     - _WaveScale: 12
     - _WaveSpeedX: 0
-    - _WaveSpeedY: 0.065
-    - _WaveStrength: 8
+    - _WaveSpeedY: 0.05
+    - _WaveStrength: 3
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -139,7 +149,8 @@ Material:
     - _HighlightColor: {r: 1, g: 1, b: 1, a: 0}
     - _RippleColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SurfaceColor: {r: 0.25943395, g: 0.81496835, b: 1, a: 0.15686275}
+    - _SurfaceColor: {r: 0.49411762, g: 0.8392157, b: 1, a: 0.05882353}
+    - _SurfaceScale: {r: 2, g: 2, b: 0, a: 0}
     - _WaterColor: {r: 0.43867922, g: 0.8305033, b: 1, a: 0.39215687}
   m_BuildTextureStacks: []
 --- !u!114 &3369763539063837000
