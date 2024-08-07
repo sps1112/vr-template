@@ -19,26 +19,39 @@ public class UIManager : MonoBehaviour
     {
         timer = 0;
         delta = 0;
-        fpsCounter.text = ((int)(1 / Time.deltaTime)).ToString();
+        // fpsCounter.text = ((int)(1 / Time.deltaTime)).ToString();
         toRefresh = true;
     }
 
     void Update()
     {
-        timer += Time.unscaledDeltaTime;
-        delta += (Time.unscaledDeltaTime - delta) * 0.1f;
-        if (timer >= timeSkip)
-        {
-            timer -= timeSkip;
-            if (toRefresh)
-            {
-                fpsCounter.text = "Checking..";
-            }
-            else
-            {
-                fpsCounter.text = ((int)(1 / delta)).ToString();
-            }
-            toRefresh = !toRefresh;
-        }
+        // timer += Time.unscaledDeltaTime;
+        // delta += (Time.unscaledDeltaTime - delta) * 0.1f;
+        // if (timer >= timeSkip)
+        // {
+        //     timer -= timeSkip;
+        //     if (toRefresh)
+        //     {
+        //         fpsCounter.text = "Checking..";
+        //     }
+        //     else
+        //     {
+        //         fpsCounter.text = ((int)(1 / delta)).ToString();
+        //     }
+        //     toRefresh = !toRefresh;
+        // }
+    }
+
+    public void SetText(string text)
+    {
+        StopCoroutine("DisplayText");
+        StartCoroutine("DisplayText", text);
+    }
+
+    private IEnumerator DisplayText(string text)
+    {
+        fpsCounter.text = text;
+        yield return new WaitForSeconds(0.5f);
+        fpsCounter.text = " ";
     }
 }
