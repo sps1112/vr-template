@@ -20,5 +20,9 @@ public class FollowTarget : MonoBehaviour
         {
             transform.position = target.transform.position + positionOffset;
         }
+        if (syncRotation)
+        {
+
+        }
     }
 }
