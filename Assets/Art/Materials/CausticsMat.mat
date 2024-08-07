@@ -108,7 +108,7 @@ Material:
     - _CausticSpeed: 5
     - _CausticStrength: 6
     - _CausticsAlpha: 0.85
-    - _CausticsScale: 4
+    - _CausticsScale: 2.5
     - _CausticsSpeed: 2.5
     - _CausticsStrength: 8
     - _ClearCoatMask: 0

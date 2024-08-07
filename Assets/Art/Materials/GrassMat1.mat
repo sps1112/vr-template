@@ -139,7 +139,7 @@ Material:
     - _SwayPivot: -0.31
     - _SwayScale: 6
     - _SwaySpeed: 0.1
-    - _SwayStrength: 2
+    - _SwayStrength: 5
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
